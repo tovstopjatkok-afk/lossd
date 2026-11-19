@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "legitclient",
+  "version": "${version}",
+  "name": "LegitClient",
+  "description": "Client GUI foundation for Minecraft 1.21.4.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.tiffany.legitclient.LegitClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
